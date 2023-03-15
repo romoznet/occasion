@@ -39,11 +39,17 @@
         margin-top: 6rem;
     }
     @media #{$md} {
-        .overlay{
-            height: 100%;
-        }
+        // .overlay{
+        //     height: 100%;
+        // }
         .content {
             margin-top: 0;
+        }
+    }
+    .image{
+        img{
+            width: min(100% - 40px , 400px);
+            margin: auto;
         }
     }
 }

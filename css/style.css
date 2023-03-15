@@ -4332,12 +4332,13 @@ body.mobile-menu-active {
   margin-top: 6rem;
 }
 @media (max-width: 991.98px) {
-  .newsletter-1 .overlay {
-    height: 100%;
-  }
   .newsletter-1 .content {
     margin-top: 0;
   }
+}
+.newsletter-1 .image img {
+  width: min(100% - 40px, 400px);
+  margin: auto;
 }
 
 .newsletter-2 {
