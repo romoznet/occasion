@@ -1,0 +1,50 @@
+/* -----------------------------------------
+    Reset CSS
+----------------------------------------- */
+
+:target {
+  scroll-margin-top: 100px;
+}
+
+:focus {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.form-control {
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+ul {
+  padding: 0;
+}
+
+figure,
+blockquote,
+ul {
+  margin-bottom: 0;
+}
+
+table,
+th,
+td {
+  vertical-align: middle;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: var(--text-light);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 30px;
+  background: rgba($color: var(--color-dark-rgb), $alpha: 0.2);
+}
